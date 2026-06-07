@@ -196,10 +196,6 @@ namespace Main
             }
         }
 
-        // ====================================================================
-        // HELPER METHODS (Paste below Main method)
-        // ====================================================================
-
         static string FetchJson(string url)
         {
             using HttpClient client = new HttpClient();
